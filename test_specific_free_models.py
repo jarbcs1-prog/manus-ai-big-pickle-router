@@ -27,6 +27,7 @@ def test_models(model_list):
 
 requested_models = [
     "big-pickle",
+    "hy3-free",
     "north-mini-code-free",
     "nemotron-3-ultra-free",
     "deepseek-v4-flash-free",
