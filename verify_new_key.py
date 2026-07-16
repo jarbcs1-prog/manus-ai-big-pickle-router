@@ -1,6 +1,6 @@
 import requests
 
-api_key = "sk-2gRgOHCb7rVBHhykaqyp8WMIcR9QzViRoGUGvzHewXKCA2yccQzg5KCSQ5YYJyQA"
+api_key = "YOUR_OPENCODE_ZEN_APIKEY"
 
 def test_endpoint(name, url, model, payload_type="openai"):
     print(f"--- Testing {name} ({model}) ---")
