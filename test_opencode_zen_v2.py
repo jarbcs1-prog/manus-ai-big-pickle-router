@@ -1,6 +1,6 @@
 import requests
 
-api_key = "sk-X4uxdpzuIWYAAm3kaOQyKxMgupNaPmk19iBrJZ8KVI9sJYAx4HcvbbV7QSMoC3SU"
+api_key = "YOUR_OPENCODE_ZEN_APIKEY"
 
 # Based on docs:
 # Claude Sonnet 4 -> https://opencode.ai/zen/v1/messages
