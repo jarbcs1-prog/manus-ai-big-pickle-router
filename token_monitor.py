@@ -3,7 +3,7 @@ import os
 
 # Configuration for Daily Token Limit
 LIMIT = 1300
-USAGE_FILE = "/home/ubuntu/daily_usage.json"
+USAGE_FILE = "daily_usage.json"
 
 def check_and_delegate(current_request_tokens):
     """
