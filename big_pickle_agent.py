@@ -3,7 +3,7 @@ import sys
 import json
 import os
 
-API_KEY = "sk-2gRgOHCb7rVBHhykaqyp8WMIcR9QzViRoGUGvzHewXKCA2yccQzg5KCSQ5YYJyQA"
+API_KEY = "YOUR_OPENCODE_ZEN_APIKEY"
 URL = "https://opencode.ai/zen/v1/chat/completions"
 MODEL = "big-pickle"
 
