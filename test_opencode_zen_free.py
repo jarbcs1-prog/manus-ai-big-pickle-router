@@ -1,16 +1,16 @@
 import requests
 
-api_key = "sk-X4uxdpzuIWYAAm3kaOQyKxMgupNaPmk19iBrJZ8KVI9sJYAx4HcvbbV7QSMoC3SU"
+api_key = "YOUR_OPENCODE_ZEN_APIKEY"
 
 def test_free_model():
-    print("Testing Code Supernova (Free model)...")
+    print("Testing North Mini Code (Free model)...")
     url = "https://opencode.ai/zen/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
     }
     data = {
-        "model": "code-supernova",
+        "model": "north-mini-code-free",
         "messages": [{"role": "user", "content": "Hello"}],
         "max_tokens": 50
     }
