@@ -1,7 +1,7 @@
 import requests
 import os
 
-api_key = "sk-X4uxdpzuIWYAAm3kaOQyKxMgupNaPmk19iBrJZ8KVI9sJYAx4HcvbbV7QSMoC3SU"
+api_key = "YOUR_OPENCODE_ZEN_APIKEY"
 headers = {
     "Authorization": f"Bearer {api_key}",
     "Content-Type": "application/json"
