@@ -2,7 +2,7 @@ import json
 import os
 from datetime import datetime
 
-CONTEXT_FILE = "/home/ubuntu/task_context.json"
+CONTEXT_FILE = "task_context.json"
 
 def save_context(messages):
     """
